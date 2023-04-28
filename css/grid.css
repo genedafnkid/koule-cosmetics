@@ -56,3 +56,21 @@
     width: 100%;
 }
 
+
+
+@media screen and (max-width: 1100px) {
+    .col-3 {
+        width: 50%;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .col-5 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .col-3, .col-4, .col-5 {
+        width: 100%;
+    }
+}
