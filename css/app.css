@@ -685,11 +685,23 @@ footer {
 
 }
 
-@media (max-width: 1100px){
-   
+@media screen and (min-width: 501px) and (max-width:1270px) {
+
+    .hero-section{
+        width: 100%;
+    }
+
+    .nav{
+        padding: 0;
+    }
+
+    .slide-info{
+        left: 45px;
+    }
 
     
 
+    
 }
 
 @media (max-width: 800px) {
@@ -751,9 +763,6 @@ footer {
         font-size: 15px;
         font-weight: 100;
         background-color: rgb(255, 255, 255, 0.5);
-        
-
-    
     }
     .hero-section{
         width: 100px;
@@ -781,9 +790,6 @@ footer {
         display: none;
     }
 
-    .hero-slide-toggle{
-
-    }
 
     .product-about{
         padding: 0;
@@ -806,7 +812,7 @@ footer {
     
     .bg-main{
         padding: 0px;
-        width: 202px;
+        width: 50%;
     }
 
     .row{
@@ -815,8 +821,8 @@ footer {
     .glide__slides{
         width: 400px;
     }
-   
-
+    
+     
     
 
     
