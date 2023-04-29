@@ -68,9 +68,15 @@
     .col-5 {
         width: 100%;
     }
+
+    .col-8{
+        width: 50%;
+    }
 }
 @media screen and (max-width: 500px) {
     .col-3, .col-4, .col-5 {
         width: 100%;
     }
+
+    
 }

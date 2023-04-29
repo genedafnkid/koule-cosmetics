@@ -149,7 +149,7 @@ a {
     height: var(--size);
     width: var(--size);
     overflow: hidden;
-    margin-left: 100px;
+    margin-left: 15%;
 }
 
 .slide-img img {
@@ -443,7 +443,7 @@ a {
 }
 
 .product-about>p {
-    color: var(--text-gray);
+    color: var(--text-black);
 }
 
 .product-about>h2 {
@@ -674,15 +674,28 @@ footer {
         max-width: 100px;
     }
 
-    .slide-img {
-        height: 700px;
+   
+
+    .slide-img{
+        width: 700px;
+        height: 750px;
     }
+
+    
+
+}
+
+@media (max-width: 1100px){
+   
+
+    
 
 }
 
 @media (max-width: 800px) {
     .toggle-button {
         display: flex;
+        margin-left: 50px;
     }
 
     .menu-main {
@@ -706,6 +719,7 @@ footer {
         display: flex;
     }
 
+
 }
 
 
@@ -713,4 +727,102 @@ footer {
     .footer-content {
         align-items: center;
     }
+
+    .hero-section{
+        height: 590px;
+    }
+
+    .slide-info{
+        margin-left: -190px;
+        width: 300px;
+        margin-top: 10px;
+        height: 400px;
+    }
+
+    .slide-info-wrapper{
+        height: 500px;
+    }
+    
+    .slide-info h3{
+        font-size: 30px;
+    }
+
+    .slide-info p{
+        font-size: 15px;
+        font-weight: 100;
+        background-color: rgb(255, 255, 255, 0.5);
+        
+
+    
+    }
+    .hero-section{
+        width: 100px;
+    }
+   
+    .slide-image-wrapper{
+        height: 300px;
+        width: 300px;
+    }
+
+    .slide-img-col{
+        margin-top: -600px;
+        
+    }
+
+    .slide-img{
+        width: 300px;
+        height: 300px;
+        margin-left: 70px;
+        margin-top: 10px;
+
+    }
+
+    .slide-action{
+        display: none;
+    }
+
+    .hero-slide-toggle{
+
+    }
+
+    .product-about{
+        padding: 0;
+        margin-left: -10px;
+    }
+
+    .product-about{
+        width: 85%;
+    }
+
+    .product-about h2{
+        font-size: 2rem;
+        margin: 0px;
+    }
+
+    .product-about p{
+        font-size: 15px;
+    }
+
+    
+    .bg-main{
+        padding: 0px;
+        width: 202px;
+    }
+
+    .row{
+        margin: 0;
+    }
+    .glide__slides{
+        width: 400px;
+    }
+   
+
+    
+
+    
+    
+    
+
+
+    
 }
